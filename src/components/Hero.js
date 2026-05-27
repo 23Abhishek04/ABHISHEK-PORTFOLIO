@@ -369,8 +369,8 @@ export default function Hero() {
 
           {/* Title */}
           <h1 className={`hero-title ${textVisible ? "visible" : ""}`}>
-           Web Developer{" "}
-            {/* <span className="hero-title-accent">&amp;</span>{" "}
+           A.I Web Developer{" "}
+            {/* <span className="hero-title-accent"></span>{" "}
             Strategist */}
           </h1>
 
