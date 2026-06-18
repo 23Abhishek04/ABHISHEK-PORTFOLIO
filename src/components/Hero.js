@@ -1,6 +1,7 @@
 "use client"
 import { useEffect, useRef, useState } from "react";
-import video from "./assets/video.mp4";
+import img from "./assets/img.png";
+import Image from "next/image";
 
 export default function Hero() {
   const videoRef = useRef(null);
@@ -339,14 +340,11 @@ export default function Hero() {
       <section className="hero-section">
 
         {/* Background video — replace src with your actual video URL */}
-        <video
-          ref={videoRef}
+        <Image
+         
           className="hero-video"
-          autoPlay
-          muted
-          playsInline
-          poster=""
-          src={video}
+          alt="heroimage"
+          src={img}
         />
 
         {/* Layered overlays */}
